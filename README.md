@@ -1,6 +1,6 @@
 #Impostômetro
 
-Calculator imports taxes (BR)
+Calculator for import taxes (BR)
 
 
 ![](http://imagizer.imageshack.us/v2/640x480q90/537/rGnLxf.png)
