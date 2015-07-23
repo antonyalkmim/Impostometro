@@ -1,5 +1,6 @@
 #Impostômetro
-Calculadora de Impostos de Importação
+
+Calculator imports taxes (BR)
 
 
 ![](http://imagizer.imageshack.us/v2/640x480q90/537/rGnLxf.png)
