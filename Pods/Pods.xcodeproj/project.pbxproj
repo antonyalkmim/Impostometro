@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014F49FE02EEC63FDAA26432 /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = BA869CB77D33FB427BE27F7E /* ActionSheetLocalePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10D7B55E936DEB6978726C82 /* Pods-Impostometro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB715CC186880C46D208671A /* Pods-Impostometro-dummy.m */; };
+		1E13FD230BB67811044E960D /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EBF24D2B4AF22647B9F872 /* ActionSheetStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1F871360CAB5ECFC50A3460F /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C1866F75F8923D623D440C /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		322D910AFACBCD4AD0C421BD /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DAA7A4F55CDDA40F21D1855 /* SWActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46CFD0A9291682BE8F989163 /* Pods-Impostometro-TSCurrencyTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FAE90D95E915B3DAADB6458 /* Pods-Impostometro-TSCurrencyTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CDCE8E348EE89F84B0E5CF3 /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E886F021D204E30891A9289 /* AbstractActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632ACFC6B5EC78F7C029D542 /* Pods-Impostometro-ActionSheetPicker-3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FE7D24FDF441850FA1EB4 /* Pods-Impostometro-ActionSheetPicker-3.0-dummy.m */; };
+		64ADABE762696315ABE60458 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB5861E135AE42100010E31 /* Foundation.framework */; };
+		671F7A6B7A9C3A1D2099FB58 /* Pods-Impostometro-ActionSheetPicker-3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C03683262C8208A1869AC4 /* Pods-Impostometro-ActionSheetPicker-3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68ADA1889967DCD5A30A699F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB5861E135AE42100010E31 /* Foundation.framework */; };
+		6A3553CD3DF7E2545AADADA1 /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD33360BD979051000FA8BB /* ActionSheetCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74A1F017CCA46E1B65502A63 /* Pods-Impostometro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9119FFAC180F958F4CAD506 /* Pods-Impostometro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DE8B41429309EF00EABB324 /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F9AE9227D29CA17941B6F551 /* ActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8277A53BC9D4391EB775AB82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EE6EF64FBFFE38CE158F4F /* UIKit.framework */; };
+		8A040EBF4BB8BC1E2FCF7A0F /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CC239699EEC166727CF2E3 /* ActionSheetDatePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8C737006C2FC1FD437929D32 /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9F53536D46A67356BBB74B /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95D597D85E729E00A469BDE1 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D516B20949AE26017990D188 /* DistancePickerView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		981E8D3E568408947C97D202 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 762C62205C7680B352658019 /* ActionSheetCustomPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		983DF21E7C0C3966EE41FA18 /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D58D9539A810E3007A8E025 /* ActionSheetDistancePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A234A3608FDA56D8F9FAB289 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF555DBCD2DF9578A2E4BA0 /* ActionSheetLocalePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AA389E4F4DC5DD56CAA504FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB5861E135AE42100010E31 /* Foundation.framework */; };
+		AD27760EBA6F6730DBC47B3D /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EEA5A058955ED0DFA132E6D /* ActionSheetCustomPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23E82E1FE107C9305B32F3B /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F498382081218927F5B27109 /* ActionSheetDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B892DFB313D964857EEDF1E4 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F72E5ECBF5644509E6ECCA8 /* AbstractActionSheetPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BF92F4C125E9A5316939A65F /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5663FDE5EAD82DCAC894D70C /* ActionSheetDistancePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D622E02034E32EA2CABCB548 /* TSCurrencyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A574AC114E0A2FF1FCB050 /* TSCurrencyTextField.m */; };
+		E4FB579F0C4DE566D8640B0E /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 129155139BE6DF21E546CABD /* SWActionSheet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F63CB7A735F9F704DABBC4FF /* Pods-Impostometro-TSCurrencyTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8572F8B9672E9C07AF0BDB0 /* Pods-Impostometro-TSCurrencyTextField-dummy.m */; };
+		FD84F3737A1B3CED4305026B /* TSCurrencyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = ADCA31C5ECD0C46F131C0A72 /* TSCurrencyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		038CFCC84E971F10C3E0B5EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BFB5672D52743D86CE70071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7F2194D3E19C01556A3162B;
+			remoteInfo = "Pods-Impostometro-ActionSheetPicker-3.0";
+		};
+		D277243F8019453DFCD5243C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BFB5672D52743D86CE70071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89CAB44F45A553BE8A56F01F;
+			remoteInfo = "Pods-Impostometro-TSCurrencyTextField";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0202D466A9B8902AFC40736E /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActionSheetPicker_3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02464066BC47A037FCBB3872 /* Pods-Impostometro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Impostometro.release.xcconfig"; sourceTree = "<group>"; };
+		02C426E27E1436ED19BAEFDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06CC239699EEC166727CF2E3 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		129155139BE6DF21E546CABD /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = Pickers/SWActionSheet.m; sourceTree = "<group>"; };
+		13C03683262C8208A1869AC4 /* Pods-Impostometro-ActionSheetPicker-3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Impostometro-ActionSheetPicker-3.0-umbrella.h"; sourceTree = "<group>"; };
+		1D0581210C51179C09BBEA83 /* Pods-Impostometro-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Impostometro-resources.sh"; sourceTree = "<group>"; };
+		1DD33360BD979051000FA8BB /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		1F8FE7D24FDF441850FA1EB4 /* Pods-Impostometro-ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Impostometro-ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
+		259ACB23715446982BB21288 /* Pods_Impostometro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Impostometro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D58D9539A810E3007A8E025 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		2DAA7A4F55CDDA40F21D1855 /* SWActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = Pickers/SWActionSheet.h; sourceTree = "<group>"; };
+		2EEA5A058955ED0DFA132E6D /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		3E886F021D204E30891A9289 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		46767B8B9E4ECA541A8B604E /* Pods-Impostometro-TSCurrencyTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Impostometro-TSCurrencyTextField.modulemap"; sourceTree = "<group>"; };
+		4FAE90D95E915B3DAADB6458 /* Pods-Impostometro-TSCurrencyTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Impostometro-TSCurrencyTextField-umbrella.h"; sourceTree = "<group>"; };
+		5663FDE5EAD82DCAC894D70C /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		568EFDD3E95C521410B5B9BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5785ED720748F85C4D337019 /* Pods-Impostometro-TSCurrencyTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Impostometro-TSCurrencyTextField-prefix.pch"; sourceTree = "<group>"; };
+		5BE16FD3CF4DC8973218487F /* Pods-Impostometro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Impostometro.modulemap"; sourceTree = "<group>"; };
+		65D5257E5B293EA3717643D8 /* Pods-Impostometro-ActionSheetPicker-3.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Impostometro-ActionSheetPicker-3.0-prefix.pch"; sourceTree = "<group>"; };
+		6AB5861E135AE42100010E31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		762C62205C7680B352658019 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		86A574AC114E0A2FF1FCB050 /* TSCurrencyTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSCurrencyTextField.m; path = TSCurrencyTextField/TSCurrencyTextField.m; sourceTree = "<group>"; };
+		8F72E5ECBF5644509E6ECCA8 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		95A5A46500EA3B1608E851EC /* Pods-Impostometro-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Impostometro-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7323F0EECD3DECEE7B671A7 /* TSCurrencyTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSCurrencyTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9119FFAC180F958F4CAD506 /* Pods-Impostometro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Impostometro-umbrella.h"; sourceTree = "<group>"; };
+		AB715CC186880C46D208671A /* Pods-Impostometro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Impostometro-dummy.m"; sourceTree = "<group>"; };
+		AB9F53536D46A67356BBB74B /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		AD516515B6725D75DF100EEA /* Pods-Impostometro-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Impostometro-environment.h"; sourceTree = "<group>"; };
+		ADCA31C5ECD0C46F131C0A72 /* TSCurrencyTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSCurrencyTextField.h; path = TSCurrencyTextField/TSCurrencyTextField.h; sourceTree = "<group>"; };
+		B5EE6EF64FBFFE38CE158F4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA869CB77D33FB427BE27F7E /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		BE32915BFF580ADACA87180D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00A2492A16305BD728CCA0D /* Pods-Impostometro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Impostometro.debug.xcconfig"; sourceTree = "<group>"; };
+		C0FEED9E5D518B65D4DBBA3C /* Pods-Impostometro-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Impostometro-acknowledgements.plist"; sourceTree = "<group>"; };
+		C437BA5B5E6C89F72BF9ED84 /* Pods-Impostometro-ActionSheetPicker-3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Impostometro-ActionSheetPicker-3.0.modulemap"; sourceTree = "<group>"; };
+		D516B20949AE26017990D188 /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = Pickers/DistancePickerView.m; sourceTree = "<group>"; };
+		D8572F8B9672E9C07AF0BDB0 /* Pods-Impostometro-TSCurrencyTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Impostometro-TSCurrencyTextField-dummy.m"; sourceTree = "<group>"; };
+		E0C1866F75F8923D623D440C /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = Pickers/DistancePickerView.h; sourceTree = "<group>"; };
+		E3EBF24D2B4AF22647B9F872 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		EC491A143ABB6FDBB0B39C5E /* Pods-Impostometro-TSCurrencyTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Impostometro-TSCurrencyTextField.xcconfig"; sourceTree = "<group>"; };
+		F17D733B66C04503B0801C66 /* Pods-Impostometro-ActionSheetPicker-3.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Impostometro-ActionSheetPicker-3.0.xcconfig"; sourceTree = "<group>"; };
+		F448212B784148900605D693 /* Pods-Impostometro-ActionSheetPicker-3.0-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Impostometro-ActionSheetPicker-3.0-Private.xcconfig"; sourceTree = "<group>"; };
+		F498382081218927F5B27109 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDatePicker.h; path = Pickers/ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		F86C4B3C4C819AFFB107E81C /* Pods-Impostometro-TSCurrencyTextField-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Impostometro-TSCurrencyTextField-Private.xcconfig"; sourceTree = "<group>"; };
+		F93144A9F1799A486FBB66B7 /* Pods-Impostometro-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Impostometro-frameworks.sh"; sourceTree = "<group>"; };
+		F9AE9227D29CA17941B6F551 /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
+		FE792EE8095248B25A582ABC /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FEF555DBCD2DF9578A2E4BA0 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045099E2D7B53747FE26F4F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64ADABE762696315ABE60458 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		356AA926FC9B44664632BBB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADA1889967DCD5A30A699F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36460A780BF0FBC078C36A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA389E4F4DC5DD56CAA504FA /* Foundation.framework in Frameworks */,
+				8277A53BC9D4391EB775AB82 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0926EE5B482CED4D51D47757 /* Pods-Impostometro */ = {
+			isa = PBXGroup;
+			children = (
+				02C426E27E1436ED19BAEFDA /* Info.plist */,
+				5BE16FD3CF4DC8973218487F /* Pods-Impostometro.modulemap */,
+				95A5A46500EA3B1608E851EC /* Pods-Impostometro-acknowledgements.markdown */,
+				C0FEED9E5D518B65D4DBBA3C /* Pods-Impostometro-acknowledgements.plist */,
+				AB715CC186880C46D208671A /* Pods-Impostometro-dummy.m */,
+				AD516515B6725D75DF100EEA /* Pods-Impostometro-environment.h */,
+				F93144A9F1799A486FBB66B7 /* Pods-Impostometro-frameworks.sh */,
+				1D0581210C51179C09BBEA83 /* Pods-Impostometro-resources.sh */,
+				A9119FFAC180F958F4CAD506 /* Pods-Impostometro-umbrella.h */,
+				C00A2492A16305BD728CCA0D /* Pods-Impostometro.debug.xcconfig */,
+				02464066BC47A037FCBB3872 /* Pods-Impostometro.release.xcconfig */,
+			);
+			name = "Pods-Impostometro";
+			path = "Target Support Files/Pods-Impostometro";
+			sourceTree = "<group>";
+		};
+		0E9BA9C7E275CD4E533E9635 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0202D466A9B8902AFC40736E /* ActionSheetPicker_3_0.framework */,
+				259ACB23715446982BB21288 /* Pods_Impostometro.framework */,
+				A7323F0EECD3DECEE7B671A7 /* TSCurrencyTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24952D93B8917CEC27E227F7 /* ActionSheetPicker-3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				3E886F021D204E30891A9289 /* AbstractActionSheetPicker.h */,
+				8F72E5ECBF5644509E6ECCA8 /* AbstractActionSheetPicker.m */,
+				1DD33360BD979051000FA8BB /* ActionSheetCustomPicker.h */,
+				762C62205C7680B352658019 /* ActionSheetCustomPicker.m */,
+				2EEA5A058955ED0DFA132E6D /* ActionSheetCustomPickerDelegate.h */,
+				F498382081218927F5B27109 /* ActionSheetDatePicker.h */,
+				06CC239699EEC166727CF2E3 /* ActionSheetDatePicker.m */,
+				5663FDE5EAD82DCAC894D70C /* ActionSheetDistancePicker.h */,
+				2D58D9539A810E3007A8E025 /* ActionSheetDistancePicker.m */,
+				BA869CB77D33FB427BE27F7E /* ActionSheetLocalePicker.h */,
+				FEF555DBCD2DF9578A2E4BA0 /* ActionSheetLocalePicker.m */,
+				F9AE9227D29CA17941B6F551 /* ActionSheetPicker.h */,
+				AB9F53536D46A67356BBB74B /* ActionSheetStringPicker.h */,
+				E3EBF24D2B4AF22647B9F872 /* ActionSheetStringPicker.m */,
+				E0C1866F75F8923D623D440C /* DistancePickerView.h */,
+				D516B20949AE26017990D188 /* DistancePickerView.m */,
+				2DAA7A4F55CDDA40F21D1855 /* SWActionSheet.h */,
+				129155139BE6DF21E546CABD /* SWActionSheet.m */,
+				4C1F84A74150575141192333 /* Support Files */,
+			);
+			path = "ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		4C1F84A74150575141192333 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				568EFDD3E95C521410B5B9BA /* Info.plist */,
+				C437BA5B5E6C89F72BF9ED84 /* Pods-Impostometro-ActionSheetPicker-3.0.modulemap */,
+				F17D733B66C04503B0801C66 /* Pods-Impostometro-ActionSheetPicker-3.0.xcconfig */,
+				F448212B784148900605D693 /* Pods-Impostometro-ActionSheetPicker-3.0-Private.xcconfig */,
+				1F8FE7D24FDF441850FA1EB4 /* Pods-Impostometro-ActionSheetPicker-3.0-dummy.m */,
+				65D5257E5B293EA3717643D8 /* Pods-Impostometro-ActionSheetPicker-3.0-prefix.pch */,
+				13C03683262C8208A1869AC4 /* Pods-Impostometro-ActionSheetPicker-3.0-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Impostometro-ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		5DE70BB2AA2A38DFA1BC7306 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24952D93B8917CEC27E227F7 /* ActionSheetPicker-3.0 */,
+				A0508B4D37CCD0E1CBC0FF48 /* TSCurrencyTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69B8AA0FFD75D37B7E585F81 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ADCA31C5ECD0C46F131C0A72 /* TSCurrencyTextField.h */,
+				86A574AC114E0A2FF1FCB050 /* TSCurrencyTextField.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		719433F9225D1607FC4541D5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6AB5861E135AE42100010E31 /* Foundation.framework */,
+				B5EE6EF64FBFFE38CE158F4F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		98C99BE0ACF44E6674821C7E = {
+			isa = PBXGroup;
+			children = (
+				FE792EE8095248B25A582ABC /* Podfile */,
+				E9628D19DFC5B76071AAADDA /* Frameworks */,
+				5DE70BB2AA2A38DFA1BC7306 /* Pods */,
+				0E9BA9C7E275CD4E533E9635 /* Products */,
+				A582FBCA7B335A6115920772 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A0508B4D37CCD0E1CBC0FF48 /* TSCurrencyTextField */ = {
+			isa = PBXGroup;
+			children = (
+				69B8AA0FFD75D37B7E585F81 /* Core */,
+				B9E74990CC90D858BE78C536 /* Support Files */,
+			);
+			path = TSCurrencyTextField;
+			sourceTree = "<group>";
+		};
+		A582FBCA7B335A6115920772 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0926EE5B482CED4D51D47757 /* Pods-Impostometro */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B9E74990CC90D858BE78C536 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE32915BFF580ADACA87180D /* Info.plist */,
+				46767B8B9E4ECA541A8B604E /* Pods-Impostometro-TSCurrencyTextField.modulemap */,
+				EC491A143ABB6FDBB0B39C5E /* Pods-Impostometro-TSCurrencyTextField.xcconfig */,
+				F86C4B3C4C819AFFB107E81C /* Pods-Impostometro-TSCurrencyTextField-Private.xcconfig */,
+				D8572F8B9672E9C07AF0BDB0 /* Pods-Impostometro-TSCurrencyTextField-dummy.m */,
+				5785ED720748F85C4D337019 /* Pods-Impostometro-TSCurrencyTextField-prefix.pch */,
+				4FAE90D95E915B3DAADB6458 /* Pods-Impostometro-TSCurrencyTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Impostometro-TSCurrencyTextField";
+			sourceTree = "<group>";
+		};
+		E9628D19DFC5B76071AAADDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				719433F9225D1607FC4541D5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5964897019FF53963097EFE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CFD0A9291682BE8F989163 /* Pods-Impostometro-TSCurrencyTextField-umbrella.h in Headers */,
+				FD84F3737A1B3CED4305026B /* TSCurrencyTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A780BB4B75E22C9385A35906 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDCE8E348EE89F84B0E5CF3 /* AbstractActionSheetPicker.h in Headers */,
+				6A3553CD3DF7E2545AADADA1 /* ActionSheetCustomPicker.h in Headers */,
+				AD27760EBA6F6730DBC47B3D /* ActionSheetCustomPickerDelegate.h in Headers */,
+				B23E82E1FE107C9305B32F3B /* ActionSheetDatePicker.h in Headers */,
+				BF92F4C125E9A5316939A65F /* ActionSheetDistancePicker.h in Headers */,
+				014F49FE02EEC63FDAA26432 /* ActionSheetLocalePicker.h in Headers */,
+				7DE8B41429309EF00EABB324 /* ActionSheetPicker.h in Headers */,
+				8C737006C2FC1FD437929D32 /* ActionSheetStringPicker.h in Headers */,
+				1F871360CAB5ECFC50A3460F /* DistancePickerView.h in Headers */,
+				671F7A6B7A9C3A1D2099FB58 /* Pods-Impostometro-ActionSheetPicker-3.0-umbrella.h in Headers */,
+				322D910AFACBCD4AD0C421BD /* SWActionSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F015513BF35954A21EFF57C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A1F017CCA46E1B65502A63 /* Pods-Impostometro-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		89CAB44F45A553BE8A56F01F /* Pods-Impostometro-TSCurrencyTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DFDCF63A111001B6C7D0030 /* Build configuration list for PBXNativeTarget "Pods-Impostometro-TSCurrencyTextField" */;
+			buildPhases = (
+				7C7F01D816238C3A4FE7E557 /* Sources */,
+				356AA926FC9B44664632BBB3 /* Frameworks */,
+				5964897019FF53963097EFE0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Impostometro-TSCurrencyTextField";
+			productName = "Pods-Impostometro-TSCurrencyTextField";
+			productReference = A7323F0EECD3DECEE7B671A7 /* TSCurrencyTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96430FB066BB014299D00DF3 /* Pods-Impostometro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A8DA3F81B3169513D5522C /* Build configuration list for PBXNativeTarget "Pods-Impostometro" */;
+			buildPhases = (
+				B11808ED338148FDBEF4F76A /* Sources */,
+				045099E2D7B53747FE26F4F5 /* Frameworks */,
+				F015513BF35954A21EFF57C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE2628E392419FD43C0AC20A /* PBXTargetDependency */,
+				AAE5B0D48CBF8B030612BFC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-Impostometro";
+			productName = "Pods-Impostometro";
+			productReference = 259ACB23715446982BB21288 /* Pods_Impostometro.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7F2194D3E19C01556A3162B /* Pods-Impostometro-ActionSheetPicker-3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028E211D53DD91F9FE2E37ED /* Build configuration list for PBXNativeTarget "Pods-Impostometro-ActionSheetPicker-3.0" */;
+			buildPhases = (
+				09319A75AC639413DA0489AC /* Sources */,
+				F36460A780BF0FBC078C36A1 /* Frameworks */,
+				A780BB4B75E22C9385A35906 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Impostometro-ActionSheetPicker-3.0";
+			productName = "Pods-Impostometro-ActionSheetPicker-3.0";
+			productReference = 0202D466A9B8902AFC40736E /* ActionSheetPicker_3_0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BFB5672D52743D86CE70071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = ECC6E3A7680AAA1CEDB50052 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 98C99BE0ACF44E6674821C7E;
+			productRefGroup = 0E9BA9C7E275CD4E533E9635 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96430FB066BB014299D00DF3 /* Pods-Impostometro */,
+				F7F2194D3E19C01556A3162B /* Pods-Impostometro-ActionSheetPicker-3.0 */,
+				89CAB44F45A553BE8A56F01F /* Pods-Impostometro-TSCurrencyTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09319A75AC639413DA0489AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B892DFB313D964857EEDF1E4 /* AbstractActionSheetPicker.m in Sources */,
+				981E8D3E568408947C97D202 /* ActionSheetCustomPicker.m in Sources */,
+				8A040EBF4BB8BC1E2FCF7A0F /* ActionSheetDatePicker.m in Sources */,
+				983DF21E7C0C3966EE41FA18 /* ActionSheetDistancePicker.m in Sources */,
+				A234A3608FDA56D8F9FAB289 /* ActionSheetLocalePicker.m in Sources */,
+				1E13FD230BB67811044E960D /* ActionSheetStringPicker.m in Sources */,
+				95D597D85E729E00A469BDE1 /* DistancePickerView.m in Sources */,
+				632ACFC6B5EC78F7C029D542 /* Pods-Impostometro-ActionSheetPicker-3.0-dummy.m in Sources */,
+				E4FB579F0C4DE566D8640B0E /* SWActionSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C7F01D816238C3A4FE7E557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63CB7A735F9F704DABBC4FF /* Pods-Impostometro-TSCurrencyTextField-dummy.m in Sources */,
+				D622E02034E32EA2CABCB548 /* TSCurrencyTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11808ED338148FDBEF4F76A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D7B55E936DEB6978726C82 /* Pods-Impostometro-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAE5B0D48CBF8B030612BFC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Impostometro-TSCurrencyTextField";
+			target = 89CAB44F45A553BE8A56F01F /* Pods-Impostometro-TSCurrencyTextField */;
+			targetProxy = D277243F8019453DFCD5243C /* PBXContainerItemProxy */;
+		};
+		EE2628E392419FD43C0AC20A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Impostometro-ActionSheetPicker-3.0";
+			target = F7F2194D3E19C01556A3162B /* Pods-Impostometro-ActionSheetPicker-3.0 */;
+			targetProxy = 038CFCC84E971F10C3E0B5EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08C935A389991548CA3706EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1579439B8562D42D1B4F8F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00A2492A16305BD728CCA0D /* Pods-Impostometro.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Impostometro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Impostometro/Pods-Impostometro.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Impostometro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		245AFE247745128959E45F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F86C4B3C4C819AFFB107E81C /* Pods-Impostometro-TSCurrencyTextField-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Impostometro-TSCurrencyTextField/Pods-Impostometro-TSCurrencyTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Impostometro-TSCurrencyTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Impostometro-TSCurrencyTextField/Pods-Impostometro-TSCurrencyTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TSCurrencyTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5344295DC97A5F1595C0925B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E60D3F71E9357C64F1AF4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F448212B784148900605D693 /* Pods-Impostometro-ActionSheetPicker-3.0-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Impostometro-ActionSheetPicker-3.0/Pods-Impostometro-ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Impostometro-ActionSheetPicker-3.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Impostometro-ActionSheetPicker-3.0/Pods-Impostometro-ActionSheetPicker-3.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA182CB641CB52506445A5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F448212B784148900605D693 /* Pods-Impostometro-ActionSheetPicker-3.0-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Impostometro-ActionSheetPicker-3.0/Pods-Impostometro-ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Impostometro-ActionSheetPicker-3.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Impostometro-ActionSheetPicker-3.0/Pods-Impostometro-ActionSheetPicker-3.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BAC533541503471334022BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02464066BC47A037FCBB3872 /* Pods-Impostometro.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Impostometro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Impostometro/Pods-Impostometro.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Impostometro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C0605A9FDCC391E7B0D580B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F86C4B3C4C819AFFB107E81C /* Pods-Impostometro-TSCurrencyTextField-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Impostometro-TSCurrencyTextField/Pods-Impostometro-TSCurrencyTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Impostometro-TSCurrencyTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Impostometro-TSCurrencyTextField/Pods-Impostometro-TSCurrencyTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TSCurrencyTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		028E211D53DD91F9FE2E37ED /* Build configuration list for PBXNativeTarget "Pods-Impostometro-ActionSheetPicker-3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E60D3F71E9357C64F1AF4EE /* Debug */,
+				BA182CB641CB52506445A5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DFDCF63A111001B6C7D0030 /* Build configuration list for PBXNativeTarget "Pods-Impostometro-TSCurrencyTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245AFE247745128959E45F0C /* Debug */,
+				C0605A9FDCC391E7B0D580B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A8DA3F81B3169513D5522C /* Build configuration list for PBXNativeTarget "Pods-Impostometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1579439B8562D42D1B4F8F34 /* Debug */,
+				BAC533541503471334022BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC6E3A7680AAA1CEDB50052 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5344295DC97A5F1595C0925B /* Debug */,
+				08C935A389991548CA3706EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BFB5672D52743D86CE70071 /* Project object */;
+}

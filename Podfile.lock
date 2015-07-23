@@ -1,0 +1,15 @@
+PODS:
+  - ActionSheetPicker-3.0 (1.7.0)
+  - TSCurrencyTextField (0.1.0):
+    - TSCurrencyTextField/Core (= 0.1.0)
+  - TSCurrencyTextField/Core (0.1.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - TSCurrencyTextField (~> 0.1.0)
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 6516052442fc8ca8f3cc4b3c7aa0436de12373df
+  TSCurrencyTextField: 03f9d4d263d617d1f0e034e4ace12febcfa6fe48
+
+COCOAPODS: 0.37.2
